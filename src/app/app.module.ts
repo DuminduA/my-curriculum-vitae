@@ -14,6 +14,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AchievementsComponent } from './achievements/achievements.component';
 import { InterestsComponent } from './interests/interests.component';
+import { ReferencesComponent } from './references/references.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { InterestsComponent } from './interests/interests.component';
     ExperienceComponent,
     ProjectsComponent,
     AchievementsComponent,
-    InterestsComponent
+    InterestsComponent,
+    ReferencesComponent
   ],
   imports: [
     BrowserModule,
